@@ -1,0 +1,85 @@
+.cell-button {
+	-fx-background-radius: 0.0;
+	-fx-padding: 0.0;
+}
+
+.cell-button.show {
+	-fx-background-color: white;
+	-fx-border-color: black;
+}
+
+.number1 {
+	-fx-text-fill: blue;
+}
+
+.cell-button.number2 {
+	-fx-text-fill: darkgreen ;
+}
+
+.cell-button.number3 {
+	-fx-text-fill: red;
+}
+
+.cell-button.number4 {
+	-fx-text-fill: darkblue;
+}
+
+.cell-button.number5 {
+	-fx-text-fill: darkred;
+}
+
+.cell-button.number6 {
+	-fx-text-fill: teal;
+}
+
+.cell-button.number7 {
+	-fx-text-fill: black;
+}
+
+.cell-button.number8 {
+	-fx-text-fill: gray;
+}
+
+.cell-button.clicked {
+	-fx-background-color: red;
+}
+
+.text-field.error {
+  -fx-text-box-border: red ;
+  -fx-focus-color: red ;
+}
+
+.run {
+	-fx-background-image: url("../../res/black-happy-32.png");
+	-fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
+
+.win {
+	-fx-background-image: url("../../res/black-cool-32.png");
+	-fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
+
+.lose {
+	-fx-background-image: url("../../res/black-sad-32.png");
+	-fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
+
+.flag {
+	-fx-background-image: url("../../res/black-filled-flag-16.png");
+	-fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
+
+.bomb {
+	-fx-background-image: url("../../res/bomb.png");
+	-fx-background-position: left top, center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover, auto;
+}
